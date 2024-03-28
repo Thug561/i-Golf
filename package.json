@@ -1,0 +1,27 @@
+{
+  "name": "viewer",
+  "version": "1.0.0",
+  "description": "This is babyloneJS based 3D|2D implemention ",
+  "main": "index.js",
+  "private": true,
+  "scripts": {
+    "build": "webpack"
+  },
+  "author": "Webskitters",
+  "license": "ISC",
+  "dependencies": {
+    "@babylonjs/core": "^5.47.0",
+    "@babylonjs/loaders": "^5.50.1",
+    "@babylonjs/react-native": "^1.5.1",
+    "@babylonjs/react-native-iosandroid-0-69": "^1.5.1",
+    "crypto-js": "^4.1.1",
+    "react-native-geolocation-service": "^5.3.1"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.19.3",
+    "@babel/preset-env": "^7.19.3",
+    "babel-loader": "^8.2.5",
+    "webpack": "^5.74.0",
+    "webpack-cli": "^4.10.0"
+  }
+}
